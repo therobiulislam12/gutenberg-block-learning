@@ -1,0 +1,1 @@
+console.log("Hello World! (from techtuzzlefadeinzoom-fade-in-zoom block)");
