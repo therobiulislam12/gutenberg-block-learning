@@ -31,6 +31,10 @@ export default function Edit({ attributes, setAttributes }) {
 					)}
 				/>
 			</MediaUploadCheck>
+
+			{
+				images.map()
+			}
 		</div>
 	);
 }
