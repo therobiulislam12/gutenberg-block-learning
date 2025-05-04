@@ -12,8 +12,6 @@ export default function Edit({ attributes, setAttributes }) {
 
 	const { images } = attributes;
 
-	console.log(images)
-
 	return (
 		<div {...useBlockProps()}>
 			<MediaUploadCheck>
@@ -33,7 +31,11 @@ export default function Edit({ attributes, setAttributes }) {
 			</MediaUploadCheck>
 
 			{
-				images.map()
+				images?.map((img, i) => {
+					return <div className="slide">
+						<img src={img.url} alt="" />
+					</div>
+				})
 			}
 		</div>
 	);
