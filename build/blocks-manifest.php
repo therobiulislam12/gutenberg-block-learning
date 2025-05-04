@@ -15,37 +15,11 @@ return array(
 		),
 		'supports' => array(
 			'html' => false,
-			'anchor' => true,
 			'align' => true,
-			'alignWide' => true,
-			'alignFull' => true,
-			'color' => array(
-				'background' => true,
-				'text' => true,
-				'link' => true
-			),
-			'spacing' => array(
-				'padding' => true,
-				'margin' => true
-			),
-			'typography' => array(
-				'fontSize' => true,
-				'lineHeight' => true,
-				'letterSpacing' => true,
-				'textTransform' => true
-			),
-			'customClassName' => true,
-			'customStyles' => true,
-			'customSpacing' => true,
-			'customColor' => true,
-			'customTypography' => true,
-			'customGradient' => true,
-			'customUnits' => true,
-			'customLineHeight' => true,
-			'customLetterSpacing' => true,
-			'customTextTransform' => true,
-			'customTextColor' => true,
-			'customBackgroundColor' => true
+			'dimensions' => array(
+				'aspectRatio' => true,
+				'minHeight' => true
+			)
 		),
 		'attributes' => array(
 			'images' => array(

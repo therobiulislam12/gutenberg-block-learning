@@ -10,37 +10,11 @@
   "example": {},
   "supports": {
     "html": false,
-    "anchor": true,
     "align": true,
-    "alignWide": true,
-    "alignFull": true,
-    "color": {
-      "background": true,
-      "text": true,
-      "link": true
-    },
-    "spacing": {
-      "padding": true,
-      "margin": true
-    },
-    "typography": {
-      "fontSize": true,
-      "lineHeight": true,
-      "letterSpacing": true,
-      "textTransform": true
-    },
-    "customClassName": true,
-    "customStyles": true,
-    "customSpacing": true,
-    "customColor": true,
-    "customTypography": true,
-    "customGradient": true,
-    "customUnits": true,
-    "customLineHeight": true,
-    "customLetterSpacing": true,
-    "customTextTransform": true,
-    "customTextColor": true,
-    "customBackgroundColor": true
+    "dimensions": {
+      "aspectRatio": true,
+      "minHeight": true
+    }
   },
   "attributes": {
     "images": {

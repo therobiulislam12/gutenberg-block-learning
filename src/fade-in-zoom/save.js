@@ -3,8 +3,6 @@ import { useBlockProps } from "@wordpress/block-editor";
 export default function save({ attributes }) {
 	const { images } = attributes;
 
-	console.log(images);
-
 	return (
 		<div {...useBlockProps.save()}>
 			{
