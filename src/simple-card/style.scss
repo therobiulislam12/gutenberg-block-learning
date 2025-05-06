@@ -7,9 +7,9 @@
 
 .wp-block-create-block-simple-card {
 	padding: 2px;
-}
-img{
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
+	.tt-simple-card-image img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
 }
