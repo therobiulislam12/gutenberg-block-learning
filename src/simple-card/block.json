@@ -11,6 +11,24 @@
 	"supports": {
 		"html": false
 	},
+	"attributes": {
+		"heading": {
+			"type": "string",
+			"default": ""
+		},
+		"description": {
+			"type": "string",
+			"default": ""
+		},
+		"image": {
+			"type": "object",
+			"default": {
+				"id": 0,
+				"alt": "",
+				"url": ""
+			}
+		}
+	},
 	"textdomain": "simple-card",
 	"editorScript": "file:./index.js",
 	"editorStyle": "file:./index.css",

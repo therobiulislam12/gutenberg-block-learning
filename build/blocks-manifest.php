@@ -16,6 +16,24 @@ return array(
 		'supports' => array(
 			'html' => false
 		),
+		'attributes' => array(
+			'heading' => array(
+				'type' => 'string',
+				'default' => ''
+			),
+			'description' => array(
+				'type' => 'string',
+				'default' => ''
+			),
+			'image' => array(
+				'type' => 'object',
+				'default' => array(
+					'id' => 0,
+					'alt' => '',
+					'url' => ''
+				)
+			)
+		),
 		'textdomain' => 'simple-card',
 		'editorScript' => 'file:./index.js',
 		'editorStyle' => 'file:./index.css',
