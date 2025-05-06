@@ -14,7 +14,11 @@ return array(
 			
 		),
 		'supports' => array(
-			'html' => false
+			'html' => false,
+			'dimensions' => array(
+				'aspectRatio' => true,
+				'minHeight' => true
+			)
 		),
 		'attributes' => array(
 			'heading' => array(
