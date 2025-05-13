@@ -6,7 +6,15 @@
  */
 
 .wp-block-create-block-polaroid-generator {
-	background-color: #21759b;
-	color: #fff;
-	padding: 2px;
+	.polaroid-container{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		gap: 15px;
+		padding: 10px;
+		flex-wrap: wrap;
+		img{
+			border-radius: 5px;
+		}
+	}
 }

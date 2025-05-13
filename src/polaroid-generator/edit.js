@@ -42,7 +42,7 @@ export default function Edit({attributes, setAttributes}) {
 				</PanelBody>
 			</InspectorControls>
 			
-			<div className="polaroid">
+			<div className="polaroid-container">
 				{
 					renderPhotos(photos)
 				}
