@@ -4,8 +4,29 @@ import { PanelBody, RangeControl } from "@wordpress/components";
 
 import "./editor.scss";
 
+const renderPhotos = ( count ) =>{
+	const photosArray = [];
+
+	for(let i = 0; i < count; i++){
+		photosArray.push(
+			<div className="polaroid" key={i}>
+				<img 
+					width="200"
+					loading="lazy"
+					alt=""
+					src={`https://picsum.photos/200/150.webp?random=${i}`}
+				/>
+			</div>
+		)
+	}
+
+	return photosArray;
+}
+
+
 export default function Edit({attributes, setAttributes}) {
-	const {photos} = attributes;
+	const { photos } = attributes;
+
 	return (
 		<div {...useBlockProps()}>
 			<InspectorControls>
@@ -20,7 +41,12 @@ export default function Edit({attributes, setAttributes}) {
 					/>
 				</PanelBody>
 			</InspectorControls>
-			{__("Polaroid Generator – hello from the editor!", "polaroid-generator")}
+			
+			<div className="polaroid">
+				{
+					renderPhotos(photos)
+				}
+			</div>
 		</div>
 	);
 }
