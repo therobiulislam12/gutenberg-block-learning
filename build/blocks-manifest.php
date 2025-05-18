@@ -18,7 +18,8 @@ return array(
 			'dimensions' => array(
 				'aspectRatio' => true,
 				'minHeight' => true
-			)
+			),
+			'align' => true
 		),
 		'attributes' => array(
 			'heading' => array(

@@ -13,7 +13,8 @@
 		"dimensions": {
 			"aspectRatio": true,
 			"minHeight": true
-		}
+		},
+		"align": true
 	},
 	"attributes": {
 		"heading": {
